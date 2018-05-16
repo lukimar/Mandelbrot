@@ -14,7 +14,6 @@ Button::Button(SDL_Renderer* render_ex,int x, int y, const char* text){
 	write();
 	draw();
 }
-
 void Button::write(){
 
 	surface=TTF_RenderText_Blended(police, name ,noir);
